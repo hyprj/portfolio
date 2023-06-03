@@ -5,7 +5,15 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        merriweather: ["Merriweather", "serif"],
+        sans: ["Roboto", "sans-serif"],
+      },
+      colors: {
+        primary: "#f9edcc",
+      },
+    },
   },
   plugins: [],
-}
+};
